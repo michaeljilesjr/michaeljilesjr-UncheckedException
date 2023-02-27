@@ -1,3 +1,4 @@
+import java.util.NoSuchElementException;
 
 public class Lab {
     /**
@@ -14,6 +15,18 @@ public class Lab {
      * event happens, like running out of computer memory.
      */
     public void throwUncheckedException(){
-
+        /*
+        int[] arr = new int[8];
+        System.out.println( arr[9] );
+        */
+         
+         System.out.println( 4 / 0);
+        
+        /*
+        String [] name = new String [2];
+        for(int i = 0; i <= 2; i++){
+            name[i] = "micheal";
+        }
+        */
     }
 }
